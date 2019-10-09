@@ -15,8 +15,6 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @Controller
-@Configuration
-@ComponentScan(basePackages = "com.stackroute")
 public class UserController {
 
     @Autowired
